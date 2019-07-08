@@ -1,0 +1,574 @@
+.kinetic a{
+	font-size: 20px;
+	font-weight:800;
+
+}
+
+html, body{
+	height:100%;
+	width:100%;
+
+}
+
+nav{
+	height:84px;
+	/* text-shadow: 0px 0px 1px rgba(0,0,0,1); */
+}
+
+
+
+
+
+
+nav ul a{
+	color: #039be5;
+	/* color:rgb(3,114,229); */
+}
+
+nav ul li.active{
+	box-shadow: inset 0px 0px 20px 10px rgba(200,200,250,0.1);
+	background-color:rgba(200,200,200,0.1);
+}
+
+.kinetic.brand-logo{
+	position: relative;
+	background-image: url("../img/Kinetic_logo_tilde_blue.png");
+
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: 90px;
+	width:104px;
+	height:84px;
+	left: initial;
+	-webkit-transform: initial;
+	transform: initial;
+
+}
+
+.smaller-nav-text a{
+		
+}
+
+a.logo{
+	width: 100%;
+	height:100%;
+}
+
+.image-shadow{
+	 -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.kinetic.nav-social-wrapper{
+	height:40px;
+	/* background-color:rgb(60,60,60); */
+position:absolute;
+right:0px;
+	margin-right:10px;
+}
+
+.kinetic.nav-social-wrapper ul{
+
+	/* text-shadow: 1px 1px 6px rgb(150,60,200); */
+	position:relative;
+z-index:2;
+}
+
+.kinetic #nav-mobile{
+	height:40px;
+	padding-right:20px;
+}
+.kinetic.dropdown-content{
+	background-color:rgb(0, 155, 229);
+	top:-84px;
+}
+
+.kinetic.dropdown-content.mobile{
+	top:-60px;
+}
+
+#team-dropdown{
+	width:97px !important;
+	min-width:0px;
+}
+
+#team-dropdown :hover{
+	background-color: rgb(0,145,210);
+}
+
+.kinetic.dropdown-content a{
+	color:white;
+	margin:0px;
+}
+
+.kinetic-social{
+	padding-left:5px;
+	padding-right:5px;
+	text-align:center;
+}
+
+.kinetic-social.text{
+	font-size:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.kinetic-social a{
+	padding:0;
+	margin:0;
+	color:white;
+}
+
+.kinetic-social a:hover{
+	background-color: rgba(0,0,0,0);
+	color:rgba(255,255,255,.8);
+	transition: .2s;
+}
+
+
+.social-triangle{
+	z-index:1;
+	position:absolute;
+	width: 10px;
+	height:60px;
+	background-color:red;
+	-moz-transform: rotate(45deg);  
+	-o-transform: rotate(45deg);  
+	-webkit-transform: rotate(45deg);  
+	-ms-transform: rotate(45deg);  
+	transform: rotate(45deg); 
+}
+
+.social-svg-container{
+	position:absolute;
+	right:0px;
+	height:40px;
+	width: 80px;
+	z-index:1;
+	transform: scale(2.9,2);
+	transform-origin: 100% 0;
+	overflow:hidden;
+}
+
+.team-svg-container{
+	transform: scale(2,2);
+	transform-origin: 100% 0;
+}
+
+
+.team-name{
+	position:relative;
+	top:10px;
+	color: #039be5;
+	font-weight:800;
+}
+
+.team-svg-container .svg-parent{
+
+}
+
+
+.kinetic.nav-wrapper{
+	background-color:rgb(255,255,255);
+
+	/* box-shadow: 1px 1px 55px 55px rgb(150,50,200); */
+}
+
+.nav-wrapper .main-nav li{
+	line-height:84px;	
+}
+
+.main-nav{
+	width:100%;
+}
+
+.banner-bg{
+	width:100%;
+	height:100%;
+	background-image: url("../img/performance.jpg");
+	background-position: center;
+	opacity: .8;
+	position:absolute;
+	z-index: -1;
+}
+
+.banner-carousel{
+	height:100%;
+}
+
+.carousel{
+	height:100%  !important;
+}
+
+.carousel .carousel-item>img{
+
+}
+
+.carousel-item img{
+	opacity: .7;
+}
+
+ul.indicators li{
+	z-index:900;
+	border-bottom:none;
+}
+
+
+.kinetic-about.card{
+background-color: rgb(3,155,229);
+}
+
+.kinetic-about p{
+	font-size: 2vw;
+}
+
+
+.banner{
+	position:relative;
+	width: 100%;
+	height:70%;
+	color:white;
+	font-size: 90px;
+	text-align:center;
+	font-weight:400;
+	z-index: 1;
+	text-shadow: 1px 1px 6px rgb(0,0,0);
+	font-family: 'Indie Flower', cursive;
+	background-color:rgb(20,67,150);
+}
+
+.other.banner{
+height:30%;
+font-family: inherit;
+}
+
+.other.banner .banner-bg{
+	background-size:cover;
+	box-shadow:inset 0px 0px 6px 1px black;
+}
+
+.team.banner .banner-bg{
+	background-image: url("../img/apex-legends-banner.jpg");
+}
+
+li.active{
+	height:84px;
+	border-bottom:3px solid #039be5;
+}
+
+.hero-text{
+	margin: 0px;
+	padding:0px;
+	float: left;
+	width:100%;
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	left:50%;
+	
+}
+
+.main{
+	color:white;
+}
+
+.team-member.row{
+	
+	
+}
+
+.team.card, .event.card{
+position:relative;
+min-width:100%;
+
+}
+
+.team.card:hover .player-info{
+	display:block;
+	opacity:1;
+	z-index:1;
+
+}
+
+.team.card .player-info{
+	position:absolute;
+	top:0%;
+	display:block;
+	background-color:rgba(0,0,0,.7);
+	width:100%;
+	height:100%;
+	z-index:1;
+	  transition: 0.2s;
+	  opacity:0;
+
+}
+
+.team.card:before, .event.card:before{
+	content:"";
+	display:block;
+	padding-top:100%;
+}
+
+.team.octane{
+	background-image: url("../img/octane.jpg");
+	background-size:cover;
+}
+.team.pathfinder{
+	background-image: url("../img/pathfinder.jpg");
+	background-size:cover;
+}
+
+.team.wraith{
+	background-image: url("../img/wraith.png");
+	background-size:cover;
+}
+
+.team-member.row{
+
+
+}
+
+.kinetic-about{
+	
+}
+
+
+div.player-info > div.container{
+	position:absolute;
+	bottom:0px;
+	left:0;
+	right: 0;
+}
+
+.player-info .container .row{
+	padding-bottom:20px;
+}
+
+.member-social-bg{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:2vw;
+	position:relative;
+	min-width:100%;
+	
+	color:white;
+	border-color:white;	
+	
+	transition: .1s;
+}
+
+.member-social-bg:hover{
+	color:rgb(3,155,229);
+	border-color:rgb(3,155,229);
+}
+
+.member-social-bg:before{
+	content:"";
+	display:block;
+	padding-top:calc(100% - 4px);
+	border:2px solid;
+	border-radius: 250px;
+}
+
+.member-social-inner{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.body-bg{
+	position:fixed;
+	top:0px;
+	z-index:-2;
+	width:100%;
+	height:100%;
+	background-size: cover;
+	opacity:.3;
+	background-repeat: repeat-x;
+}
+
+.body-bg.events{
+	background-image: url("../img/events.jpg");
+	background-position:center;
+}
+
+.body-bg.team{
+	background-image: url("../img/apex-legends-banner.jpg");
+	background-position:center;
+}
+
+.body-bg.index{
+	background-image: url("../img/csgo1.jpg");
+	background-position:center;
+}
+
+.row{
+	margin-bottom: 0px;
+}
+
+.header-row{
+margin-bottom: 0px;
+}
+
+.header{
+	color: white;
+	font-size: 5vw;
+	width: 100%;
+	position:relative;
+	z-index: -1;
+	height:100%;
+}
+
+
+
+
+.header-svg{
+	width:50%;
+	margin-left:25%;
+	height:100%;
+
+}
+
+.apex-team .header-svg{
+	width: 50%;
+
+}
+
+.header-svg svg{
+	overflow: visible;
+}
+
+.header-text{
+	height:100%;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	
+	left:0;
+
+}
+
+.event{
+	position:relative;
+
+
+}
+
+.box {
+	
+	height:100px;
+	width:100px;
+	background-color: white;
+	/* position:absolute; */
+	/* top:0%; */
+	/* display:block; */
+
+	/* width:100%; */
+	/* height:100%; */
+	/* z-index:1; */
+  /* transition: 0.2s; */
+  /* opacity:0; */
+}
+
+.box:before{
+	/* content:""; */
+	/* display:block; */
+
+	/* padding-top:100%; */
+}
+
+
+@media only screen and (max-width:800px){
+	.kinetic.brand-logo{
+		display:none;
+	}
+	
+	.banner{
+		position:fixed;
+		top:0px;
+		z-index:-1;
+		height:100%;
+		background-color:white;
+	}
+	
+	.other.banner{
+		height:100%;
+	}
+	
+	.banner-bg{
+		background-size:inherit;
+		opacity:.2;
+
+	}
+	
+	.hero-text{
+		display:none;
+
+	}
+	
+	body{
+		background-color:rgba(0,0,0,0);
+	}
+	
+	html{
+		background-color:rgba(0,0,0,0);
+	}
+	
+	.player-info p:not(:first-child){
+		margin:6px;
+	}
+
+	.player-info p:first-child{
+		margin-bottom:0px;
+	}
+
+	
+}
+
+@media only screen and (max-width:600px){
+	nav{
+		height:60px;
+	}
+	
+	.nav-wrapper .main-nav li a{
+		line-height:60px;
+	}
+	
+	li.active{
+		height:60px;
+	}
+	
+	.player-info .row{
+		margin-bottom:0px;
+	}
+	
+	#team-dropdown{
+		top: -60px;
+		width: 79px !important;
+	}
+	
+	#team-dropdown li a{
+		line-height: initial;
+		width: 79px ;
+	}
+	
+	.player-info .container .row{
+		padding-bottom: 0px;
+	}	
+}
+
+@media only screen and (max-width:680px){
+	.main-nav a{
+		font-size:2.5vw;
+	}
+}
