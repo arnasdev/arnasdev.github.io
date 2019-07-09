@@ -21,18 +21,19 @@ nav{
 
 
 nav ul a{
-	color: #039be5;
+	color: rgba(54, 57, 63, 1)
 	/* color:rgb(3,114,229); */
 }
 
 nav ul li.active{
 	box-shadow: inset 0px 0px 20px 10px rgba(200,200,250,0.1);
 	background-color:rgba(200,200,200,0.1);
+	border-color: rgba(54, 57, 63, 1);
 }
 
 .kinetic.brand-logo{
 	position: relative;
-	background-image: url("../img/Kinetic_logo_tilde_blue.png");
+	background-image: url("../img/Kinetic_logo_tilde_dark.png");
 
 	background-repeat: no-repeat; 
 	background-position: center;
@@ -81,7 +82,7 @@ z-index:2;
 	padding-right:20px;
 }
 .kinetic.dropdown-content{
-	background-color:rgb(0, 155, 229);
+	background-color: rgba(54, 57, 63, 1);
 	top:-84px;
 }
 
@@ -95,7 +96,7 @@ z-index:2;
 }
 
 #team-dropdown :hover{
-	background-color: rgb(0,145,210);
+	background-color: rgba(77, 77, 77, 1);
 }
 
 .kinetic.dropdown-content a{
@@ -161,7 +162,7 @@ z-index:2;
 .team-name{
 	position:relative;
 	top:10px;
-	color: #039be5;
+	color: rgba(54, 57, 63, 1);
 	font-weight:800;
 }
 
@@ -217,13 +218,19 @@ ul.indicators li{
 
 
 .kinetic-about.card{
-background-color: rgb(3,155,229);
+background-color: rgba(54, 57, 63, 1);
 }
 
 .kinetic-about p{
-	font-size: 2vw;
+	font-size: 1.3vw;
+	margin:0px;
+	padding:0px;
 }
 
+
+.kinetic-about .card-content{
+	padding: 1vw;
+}
 
 .banner{
 	position:relative;
@@ -236,7 +243,7 @@ background-color: rgb(3,155,229);
 	z-index: 1;
 	text-shadow: 1px 1px 6px rgb(0,0,0);
 	font-family: 'Indie Flower', cursive;
-	background-color:rgb(20,67,150);
+	background-color:rgb(100,70,50);
 }
 
 .other.banner{
@@ -361,8 +368,8 @@ div.player-info > div.container{
 }
 
 .member-social-bg:hover{
-	color:rgb(3,155,229);
-	border-color:rgb(3,155,229);
+	color:rgba(170, 170, 170, 1);
+	border-color:rgba(170, 170, 170, 1);
 }
 
 .member-social-bg:before{
@@ -485,6 +492,60 @@ margin-bottom: 0px;
 	/* display:block; */
 
 	/* padding-top:100%; */
+}
+
+.page-footer{
+	background-color:  rgb(54, 57, 63);
+	box-shadow: 0px 0px 7px 5px rgba(0,0,0,.4);
+}
+
+.page-footer .footer-copyright{
+	background-color: rgba(51,51,51,0.4);
+}
+
+.footer-logo{
+	background-image: url("../img/Kinetic_logo_trans.png");
+	width: 21px;
+	height:21px;
+	background-size:contain;
+	display:inline-block;
+	background-repeat: no-repeat;
+	position:relative;
+	top:6px;
+	margin-left:7px;
+	margin-right:3px;
+}
+
+.no-margin{
+	margin:0px;
+}
+
+
+.bold{
+	font-weight: 800;
+}
+
+.footer-hero{
+	font-family: 'Montserrat', sans-serif;
+	display:inline-block;
+}
+
+.inline-list li{
+	clear:left;
+	display: inline-block;	
+}
+
+footer .inline-list{
+	float:right;
+}
+
+.footer-copyright-text{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.footer-logo:before{
+
 }
 
 
