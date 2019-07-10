@@ -550,8 +550,13 @@ footer .inline-list{
 
 
 @media only screen and (max-width:800px){
-	.kinetic.brand-logo{
-		display:none;
+	.kinetic.nav-wrapper ul li a{
+		padding-left:13px;
+		padding-right:13px;
+	}
+	
+	.main-nav a{
+		font-size:2.7vw;
 	}
 	
 	.banner{
@@ -596,9 +601,38 @@ footer .inline-list{
 	
 }
 
+@media only screen and (max-width:700px){
+	.kinetic.brand-logo{
+		width: 65px;
+		background-size:65px;
+	}
+	
+	#team-dropdown{
+		width: 87px !important;
+	}
+	
+	#team-dropdown li a{
+		width: 87px;
+	}
+}
+
 @media only screen and (max-width:600px){
 	nav{
 		height:60px;
+	}
+	
+	.kinetic.brand-logo{
+		height:60px;
+		background-size:55px;
+	}
+	
+	.kinetic.nav-wrapper ul li a{
+		padding-left:5px;
+		padding-right:5px;
+	}	
+	
+	.main-nav a{
+		font-size:3.2vw;
 	}
 	
 	.nav-wrapper .main-nav li a{
@@ -615,12 +649,12 @@ footer .inline-list{
 	
 	#team-dropdown{
 		top: -60px;
-		width: 79px !important;
+		width: 70px !important;
 	}
 	
 	#team-dropdown li a{
 		line-height: initial;
-		width: 79px ;
+		width: 70px ;
 	}
 	
 	.player-info .container .row{
@@ -628,8 +662,133 @@ footer .inline-list{
 	}	
 }
 
-@media only screen and (max-width:680px){
+@media only screen and (max-width:500px){
+	nav{
+		height:45px;
+	}
+	
+	.kinetic.brand-logo{
+		height:45px;
+		width:45px;
+		background-size:40px;
+	}
+	
+	.kinetic.nav-wrapper ul li a{
+		padding-left:5px;
+		padding-right:5px;
+	}	
+	
+	.main-nav a{
+		font-size:3.1vw;
+	}
+	
+	.nav-wrapper .main-nav li a{
+		line-height:45px;
+	}
+	
+	li.active{
+		height:45px;
+	}
+	
+	#team-dropdown{
+		top: -45px;
+		width: 60px !important;
+	}
+	
+	#team-dropdown li{
+		display:contents;
+	}
+	
+	#team-dropdown li a{
+		line-height: initial;
+		width: 60px ;
+		font-size: 3vw;
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width:400px){
+	.kinetic.brand-logo{
+		width:40px;
+		background-size:30px;
+	}
+	
+	.kinetic.nav-wrapper ul li a{
+		padding-left:4px;
+		padding-right:4px;
+	}	
+	
+	.main-nav a{
+		font-size:2.9vw;
+	}
+	
+	.nav-wrapper .main-nav li a{
+		line-height:45px;
+	}
+	
+	li.active{
+		height:45px;
+	}
+	
+	#team-dropdown{
+		width: 50px !important;
+	}
+	
+	#team-dropdown li{
+		display:contents;
+	}
+	
+	#team-dropdown li a{
+		line-height: initial;
+		width: 50px ;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width:300px){
+	nav{
+		height:35px;
+	}
+	
+	.kinetic.brand-logo{
+		height:35px;
+		width:30px;
+		background-size:20px;
+	}
+	
+	.kinetic.nav-wrapper ul li a{
+		padding-left:5px;
+		padding-right:5px;
+	}	
+	
 	.main-nav a{
 		font-size:2.5vw;
 	}
+	
+	.nav-wrapper .main-nav li a{
+		line-height:35px;
+	}
+	
+	li.active{
+		height:35px;
+	}
+	
+	#team-dropdown{
+		top: -35px;
+		width: 35px !important;
+	}
+	
+	#team-dropdown li{
+		display:contents;
+	}
+	
+	#team-dropdown li a{
+		line-height: initial;
+		width: 35px ;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
 }
